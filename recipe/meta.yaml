@@ -1,13 +1,13 @@
 {% set name = "sbmlmath" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sbmlmath-{{ version }}.tar.gz
-  sha256: 43f535a74e9d0a135173c35aa7fe3d9376d4d6d6fe292fb435a98f9d8a778b8f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/sbmlmath-{{ version }}.tar.gz
+  sha256: 0f2669bfb2debe865f67832cd83907657855b8d4fe69b65462e25ccc19e4dfbb
 
 build:
   noarch: python
