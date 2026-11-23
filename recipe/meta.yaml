@@ -1,5 +1,5 @@
 {% set name = "sbmlmath" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/sbmlmath-{{ version }}.tar.gz
-  sha256: 0f2669bfb2debe865f67832cd83907657855b8d4fe69b65462e25ccc19e4dfbb
+  sha256: 9a5f8376ecf448ff7686686d6cddfc7dc22ba7066a21b441c39eadef843e8965
 
 build:
   noarch: python
